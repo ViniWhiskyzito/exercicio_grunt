@@ -1,0 +1,64 @@
+<!-- <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="@@ENDERECO_DO_CSS">
+    <title>Lista de tarefas</title>
+</head>
+
+<body>
+    <h1>Lista de Tarefas</h1>
+    <form id="task-form">
+        <input type="text" id="task-input" placeholder="Adicione uma tarefa">
+        <button id="add-task">Adicionar Tarefa</button>
+    </form>
+    <ul id="task-list">
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="@@ENDERECO_DO_CSS">
+    <title>Lista de Coisas a Fazer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .completed {
+            text-decoration: line-through;
+            color: grey;
+        }
+        button {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>   
+    <div class="container">
+        <h1>Lista de Coisas a Fazer</h1>
+        <input type="text" id="new-task" placeholder="Adicionar nova tarefa">
+        <button onclick="addTask()">Adicionar</button>
+        <ul id="task-list"></ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+    <script src="@@ENDERECO_DO_JS"></script>
+</body>
+</html>
